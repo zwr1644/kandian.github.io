@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8">
+	<link href="css/styles.css" rel="stylesheet">
+	<script src="js/script.js"></script>
+  </head>
+  <!--
+	  测试qq看点链接：
+	  https://kandian.qq.com/mqq/vue/main?accountId=Mzk2MzI1MDEz
+  -->
+  <body>
+	<h2>QQ看点链接转换QQ号</h2>
+	<p>输入想要查找的看点链接:</p>
+    <input type="text" id="inputer" class="input_str">
+	<input type="button" class="input_button" value="提交" onclick="getInput();">
+	  <br>
+	<p>查询结果</p>
+	<div>
+	   <p id="result">请输入看点链接！</p>
+	</div>
+	 <button onclick="copyToClip();">复制查询结果</button>
+	 <br><a href="https://blog.csdn.net/dlpu_fan/article/details/106386369">原理</a>，本人简单封装
+  </body>
+  
+</html>		
