@@ -1,0 +1,19 @@
+body
+{
+  font-size: 25pt;
+}
+.input_str{
+  height:40px;
+  width:60%;
+}
+div{
+  height:30%;
+  width:50%;
+  border-color: black;
+  border-style:solid;
+  border-width: 1;
+}
+.input_button{
+  width:10%;
+  height:40px;
+}
