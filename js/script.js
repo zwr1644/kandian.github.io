@@ -1,3 +1,6 @@
+function clearInputer(){
+    document.getElementById("inputer").value="";
+}
 function copyToClip() {
     var content=document.getElementById('result').innerHTML;
     var aux = document.createElement("input"); 
