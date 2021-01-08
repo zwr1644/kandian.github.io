@@ -18,6 +18,7 @@ function getInput(){
   if(kdlink==""){
     setResult("请输入看点链接！");
   }else{
+    kdlink=unescape(kdlink);//2021-1-8修复
     kdlink=kdlink.replace("https://kandian.qq.com/mqq/vue/main?","");
     var kvl=kdlink.split("&");
     for (i=0;i<kvl.length;i++){
